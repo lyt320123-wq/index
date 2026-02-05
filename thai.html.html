@@ -1,0 +1,154 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+    <meta charset="UTF-8">
+    <title>Dân tộc Thái</title>
+    <link rel="stylesheet" href="style.css">
+    <style>
+        body {
+            background-color: #f2f6f5; 
+        }
+        .header {
+            background-color: #1b5e63;
+            color: white;
+            padding: 20px;
+            text-align: center;
+        }
+        .section.detail {
+            max-width: 900px;
+            margin: 40px auto;
+            background-color: #ffffff;
+            padding: 30px;
+            border-radius: 14px;
+            box-shadow: 0 10px 20px rgba(0,0,0,0.1);
+        }
+        .section.detail h2 {
+            color: #1b5e63;
+            margin: 25px 0 15px;
+            text-align: center;
+        }
+        .detail-row {
+            display: flex;
+            gap: 30px;
+            align-items: center;
+        }
+        .detail-img {
+            width: 100%;
+            max-width: 400px;
+            height: 300px;
+            object-fit: cover;
+            border-radius: 12px;
+        }
+        .detail-text {
+            flex: 1;
+            line-height: 1.7;
+            text-align: justify;
+        }
+        .section.detail video {
+            width: 100%;
+            max-width: 300px;
+            display: block;
+            margin: 20px auto;
+            border-radius: 12px;
+        }
+        @media (max-width: 768px) {
+            .detail-row {
+                flex-direction: column;
+            }
+            .detail-text {
+                text-align: center;
+            }
+        }
+        .footer {
+    background-color: #1b5e63;
+    color: white;
+    padding: 40px 20px 20px;
+}
+.footer-grid {
+    max-width: 1200px;
+    margin: auto;
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    gap: 30px;
+}
+.footer h3 {
+    margin-bottom: 10px;
+    color: #c8fff0;
+}
+.footer p, .footer a {
+    font-size: 14px;
+    color: #e0f2f1;
+    text-decoration: none;
+}
+.footer a:hover {
+    text-decoration: underline;
+}
+.footer-bottom {
+    text-align: center;
+    margin-top: 25px;
+    font-size: 13px;
+    opacity: 0.85;
+}
+    </style>
+</head>
+<body>
+<header class="header">
+    <h1>Dân tộc Thái</h1>
+   <a class="back-link" href="index.html.html">← Quay về trang chủ</a>
+</header>
+<section class="section detail">
+    <h2>Trang phục truyền thống</h2>
+    <div class="detail-row">
+        <img src="thái.jpg" class="detail-img" alt="Trang phục dân tộc Thái">
+        <div class="detail-text">
+            <p>
+                Các nhóm người Thái như Thái Đen và Thái Trắng có nhiều
+                điểm chung trong trang phục hằng ngày nhưng vẫn giữ
+                những nét riêng để phân biệt.
+            </p>
+            <p>
+                Phụ nữ Thái Trắng mặc áo cánh ngắn màu sáng, cài cúc bạc
+                hình bướm hoặc ong, váy đen không trang trí hoa văn.
+                Phụ nữ Thái Đen mặc áo cánh ngắn màu sẫm và đội khăn piêu
+                được thêu rất tỉ mỉ.
+            </p>
+            <p>
+                Nam giới Thái mặc áo cánh ngắn hoặc áo dài bằng vải chàm,
+                xẻ ngực, cổ tròn, khuy bằng đồng hoặc nút vải.
+                Trang phục thể hiện sự giản dị nhưng vẫn trang trọng
+                trong các dịp lễ hội.
+            </p>
+        </div>
+    </div>
+</section>
+<footer class="footer">
+    <div class="footer-grid">
+
+        <div>
+            <h3>Về chúng tôi</h3>
+            <p>
+                Trường Phổ Thông Dân Tộc Nội Trú THCS & THPT tỉnh Đồng Nai – 
+                nơi gìn giữ và phát huy bản sắc văn hóa các dân tộc anh em.
+            </p>
+        </div>
+        <div>
+            <h3>Thông tin liên hệ</h3>
+            <p>📍 Đồng Nai</p>
+            <p>📞 0123 456 789</p>
+            <p>✉️ truongnoitru@edu.vn</p>
+        </div>
+        <div>
+            <h3>Nhóm thực hiện</h3>
+            <p>Nhóm 6</p>
+            <p>Lê Hiền Trọng</p>
+            <p>Lưu Hữu Tình</p>
+            <p>Triệu Hoàng Tuấn</p>
+            <p>Lý Anh Tuấn</p>
+        </div>
+    </div>
+    <div class="footer-bottom">
+        © 2026 Trường Nội Trú Đồng Nai | Thiết kế bởi Nhóm 6
+    </div>
+</footer>
+</body>
+</html>
